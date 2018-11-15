@@ -30,7 +30,7 @@ def word_substituter(tweet)
       #word = dictionary[word.downcase]
     #else
       #word
-    #end 
+    #end
   end
   new_tweet.join(" ")
 end
@@ -72,10 +72,8 @@ def shortened_tweet_truncator(tweet)
 #     #second is the new text
   end
   new_tweet = new_tweet.join(" ")
-  new_tweet.slice(0,140)
-  #end
+  #new_tweet.slice(0,140)
+  new_tweet[0..140]
 end
 
-#if tweet.length <= 140
-  #tweet
-#else
+
