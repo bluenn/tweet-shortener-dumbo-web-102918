@@ -28,8 +28,8 @@ def word_substituter(tweet)
 
     #if dictionary.keys.include?(word.downcase)
       #word = dictionary[word.downcase]
-    #else 
-      #word 
+    #else
+      #word
     #end 
   end
   new_tweet.join(" ")
