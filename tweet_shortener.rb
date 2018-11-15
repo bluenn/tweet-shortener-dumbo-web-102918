@@ -73,5 +73,5 @@ def shortened_tweet_truncator(tweet)
   end
   new_tweet = new_tweet.join(" ")
   #new_tweet.slice(0,140)
-  new_tweet[0..140]
+  new_tweet[0..139]
 end
