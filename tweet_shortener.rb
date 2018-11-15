@@ -25,9 +25,17 @@ def word_substituter(tweet)
     dictionary.fetch(word, word)
 #     #string.gsub—takes two arguments, first is text you want to replace,
 #     #second is the new text
+
+    #if dictionary.keys.include?(word.downcase)
+      #word = dictionary[word.downcase]
+    #else 
+      #word 
+    #end 
   end
   new_tweet.join(" ")
 end
+
+
 
 
 def bulk_tweet_shortener(tweet_list)
