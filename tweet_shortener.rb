@@ -63,9 +63,6 @@ def selective_tweet_shortener(tweet)
 end
 
 def shortened_tweet_truncator(tweet)
-  #if tweet.length <= 140
-    #tweet
- #else
   words = tweet.split(" ")
   #key_regex = /\b(?:#{Regexp.union(dictionary.keys).source})\b/
   new_tweet = words.map do |word|
